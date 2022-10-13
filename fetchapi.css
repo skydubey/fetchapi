@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 20px ;
+    margin-top:70px;
+    width: 100%;
+    padding: 50px;
+}
+
+.details{
+    margin: 10px 0px;
+}
+
+label{
+    margin-right: 30px;
+}
+
+.submitBtn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
